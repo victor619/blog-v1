@@ -48,6 +48,9 @@ footer .wrap {
 }
 
 .logo {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
   text-align: center;
 }
 
@@ -117,7 +120,7 @@ footer .wrap {
 }
 
 header {
-  height: 500px;
+  height: 550px;
 }
 
 header .overlay {
@@ -399,6 +402,9 @@ i {
 }
 
 @media (max-width: 700px) {
+  .header .wrap .post-title {
+    padding-top: 230px;
+  }
   .section .wrap {
     margin: auto;
     width: 95%;
@@ -563,6 +569,9 @@ i {
 }
 
 @media (max-width: 700px) {
+  .about-header .wrap .post-title {
+    padding-top: 230px;
+  }
   .about-section .wrap {
     margin: auto;
     width: 100%;

@@ -17,6 +17,8 @@ footer{
 }
 
 .logo{
+    display: grid;
+    place-items: center;
     text-align: center;
     a{
      letter-spacing: 2px;

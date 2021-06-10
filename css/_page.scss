@@ -110,6 +110,13 @@ i{
 
 
 @media(max-width:700px){
+    .header{
+        .wrap{
+            .post-title{
+                padding-top: 230px;
+            }
+        }
+    }
     .section{
         .wrap{
             margin: auto;
