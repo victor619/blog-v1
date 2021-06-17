@@ -183,7 +183,7 @@ header .header-text .wrap p {
 
 nav {
   background-color: white;
-  padding: 20px 0px;
+  border-bottom: 1px solid grey;
   position: fixed;
   z-index: 100;
 }
@@ -197,12 +197,15 @@ nav .wrap {
       grid-template-columns: 20% 80%;
 }
 
+nav .wrap > div {
+  padding: 10px 0px;
+}
+
 .logo {
   text-align: left;
 }
 
 .logo a {
-  padding: 15px 0px;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
@@ -226,10 +229,12 @@ nav .wrap {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .links ul li a {
-  padding: 5px;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
@@ -246,7 +251,7 @@ nav .wrap {
 
 @media (max-width: 700px) {
   nav {
-    padding: 0px;
+    padding: 5px 0px;
   }
   nav .wrap {
     -ms-grid-columns: 100%;
@@ -254,7 +259,7 @@ nav .wrap {
   }
   nav .wrap > div {
     text-align: center;
-    padding: 10px 0px;
+    padding: 5px 0px;
   }
   nav .wrap .links ul {
     width: 60%;
